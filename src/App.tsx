@@ -1,5 +1,6 @@
 import React from 'react';
-import logo from './assets/brazil.svg';
+import logo from './assets/states/pb.svg';
+import logo2 from './assets/states/pe.svg';
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo2} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
